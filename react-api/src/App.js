@@ -22,13 +22,17 @@ class App extends Component {
 
 render() {
   return (
-    <>
-  
-    <button onClick={() => this.props.history.push('/new_page')}>New Page</button>
+    <> 
     
-    <Contacts contacts={this.state.contacts} />
-
+    {/* <button onClick={() => this.props.history.push('/new_page')}>New Page</button> */}
+    
+    {/* <RouterJS/> */}
+    <Contacts contacts={this.state.contacts}/>
     </>
+  
+    
+
+  
 
     
     
