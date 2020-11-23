@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Contacts from "./Contacts";
+import "react-router-dom"
 
 
 
@@ -19,15 +20,12 @@ class App extends Component {
     .catch(console.log)
   }
 
-
-  
-  
-
 render() {
   return (
     <>
   
-    <button>New Page</button>
+    <button onClick={() => this.props.history.push('/new_page')}>New Page</button>
+    
     <Contacts contacts={this.state.contacts} />
 
     </>
