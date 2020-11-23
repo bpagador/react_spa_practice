@@ -9,6 +9,7 @@ class Main extends Component {
             <li><a href="/">Home</a></li>
             <li><a href="/stuff">Stuff</a></li>
             <li><a href="/contact">Contact</a></li>
+            <li><a href="/bonus">Bonus Items</a></li>
           </ul>
           <div className="content">
              
