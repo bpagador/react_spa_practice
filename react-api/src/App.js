@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Contacts from "./Contacts";
 
+
+
 class App extends Component {
+
   state = {
     contacts: []
   }
@@ -16,9 +19,21 @@ class App extends Component {
     .catch(console.log)
   }
 
+
+  
+  
+
 render() {
   return (
+    <>
+  
+    <button>New Page</button>
     <Contacts contacts={this.state.contacts} />
+
+    </>
+
+    
+    
   );
 }
   
