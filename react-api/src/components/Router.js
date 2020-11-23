@@ -6,9 +6,10 @@ import {
     Link
 } from "react-router-dom";
 import NewPage from '../NewPage'
-import App from '../App'
+import Contacts from '../Contacts';
 
 export default function RouterJS() {
+
     return (
         <Router>
         <div>
@@ -22,13 +23,17 @@ export default function RouterJS() {
           </ul>
   
           <hr />
+          
           <Switch>
-            <Route exact path="/">
-              <App />
+            <Route 
+            exact 
+            path="/" 
+            render={() => <Contacts contacts={this.state.contacts}/>}>
+    
             </Route>
-            <Route path="/new_page">
-              <NewPage />
-            </Route>
+            <Route 
+            path="/new_page" 
+            component={NewPage}/>
 
           </Switch>
         </div>
