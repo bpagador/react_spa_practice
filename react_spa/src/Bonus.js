@@ -5,7 +5,7 @@ class Bonus extends Component {
         return (
             <div>
                 <section>
-                    Section Sample 
+                    <h2>Section Sample </h2>
                 </section>
             </div>
         )
