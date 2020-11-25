@@ -3,9 +3,14 @@ import React, { Component } from 'react'
 class NewPage extends Component {
     render() {
         return (
-            <div>
-                this is a new page 
-            </div>
+            <section>
+                <div>
+                this is a new page
+                </div>
+            
+                <button>Go Home</button>
+            </section>
+             
         )
     }
 }
