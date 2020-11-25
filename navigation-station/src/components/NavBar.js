@@ -1,10 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function NavBar() {
     return (
-        <Router>
-            <Switch>
+        // <Router>
+            // <Switch>
                 <div>
                     <h1>this is the navbar </h1>
                         <ul>
@@ -18,9 +18,9 @@ export default function NavBar() {
 
                         </ul>
                 </div>
-            </Switch>
+            // </Switch>
         
-        </Router>
+        // </Router>
         
     )
 }
