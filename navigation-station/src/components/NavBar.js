@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function NavBar() {
     return (
-        // <Router>
-            // <Switch>
+    
                 <div>
                     <h1>this is the navbar </h1>
                         <ul>
@@ -16,11 +15,13 @@ export default function NavBar() {
                                 <Link to="/list">List</Link>
                             </li>
 
+                            <li>
+                                <Link to="/detail">Detail</Link>
+                            </li>
+
                         </ul>
                 </div>
-            // </Switch>
-        
-        // </Router>
+            
         
     )
 }

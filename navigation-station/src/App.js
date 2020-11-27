@@ -8,7 +8,7 @@ import './App.css'
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import List from './components/List';
-// import Detail from './components/Detail';
+import Detail from './components/Detail';
 // import Bonus from './components/Bonus';
 
 
@@ -32,11 +32,11 @@ export default class App extends Component {
             path="/list"
             component={List}
             />
-            {/* <Route
+            <Route
             path="/detail"
             exact
             component={Detail} />
-            <Route
+            {/* <Route
             path="/bonus"
             exact
             component={Bonus}
