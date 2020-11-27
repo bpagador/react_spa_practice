@@ -19,6 +19,10 @@ export default function NavBar() {
                                 <Link to="/detail">Detail</Link>
                             </li>
 
+                            <li>
+                                <Link to="/bonus">Bonus</Link>
+                            </li>
+
                         </ul>
                 </div>
             
