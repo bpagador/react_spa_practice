@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Fetch from './components/Fetch';
 import NavBar from './components/NavBar';
+import Counter from './components/Counter';
 
 export default class App extends Component {
 
@@ -18,10 +19,14 @@ export default class App extends Component {
           exact
           path="/"
           component={Home}/>
-          <Router 
+          <Route 
           exact
           path="/fetch"
           component={Fetch}/>
+          <Route 
+          exact
+          path="/counter"
+          component={Counter}/>
         </Switch>
 
       </Router>
